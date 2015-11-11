@@ -1,7 +1,7 @@
 {
-  "name": "phrontend-webpack",
-  "version": "0.0.7",
-  "description": "A webpack config maker for phrontend apps",
+  "name": "yawc",
+  "version": "0.0.1",
+  "description": "Minimal webpack config maker",
   "main": "lib/webpack-config.js",
   "scripts": {
     "build": "babel src --out-dir lib --copy-files --loose",
@@ -13,20 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/flipkart-incubator/phrontend-webpack"
+    "url": "https://github.com/boopathi/yawc"
   },
   "engines": {
     "node": ">=0.10.0",
     "npm": ">=3.0.0"
   },
   "keywords": [
-    "phrontend",
-    "phrontend-webpack",
+    "config maker",
     "webpack"
   ],
   "license": "Apache-2.0",
-  "bugs": "https://github.com/flipkart-incubator/phrontend-webpack/issues",
-  "homepage": "https://github.com/flipkart-incubator/phrontend-webpack",
+  "bugs": "https://github.com/boopathi/yawc/issues",
+  "homepage": "https://github.com/boopathi/yawc",
   "dependencies": {
     "babel-core": "~5.8.23",
     "babel-loader": "~5.3.2",

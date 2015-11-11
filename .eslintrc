@@ -1,5 +1,4 @@
 {
-  "extends": "phrontend",
   "env": {
     "node": true,
     "browser": false
